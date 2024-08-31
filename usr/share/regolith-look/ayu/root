@@ -58,7 +58,7 @@ gtk.icon_theme_name: Arc
 ! -- Compositor Config
 ! --------------------------------------------
 
-regolith.compositor.picom.config: /usr/share/regolith-look/ayu/picom.conf
+regolith.compositor.picom.config: /run/current-system/sw/usr/share/regolith-look/ayu/picom.conf
 ! -- Other compositor configs may be specified as desired:
 ! -- regolith.compositor.compton.config
 
@@ -101,13 +101,13 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/ayu/i3xrocks"
-#include "/usr/share/regolith-look/ayu/wm"
-#include "/usr/share/regolith-look/ayu/gnome-terminal"
+#include "/run/current-system/sw/usr/share/regolith-look/ayu/i3xrocks"
+#include "/run/current-system/sw/usr/share/regolith-look/ayu/wm"
+#include "/run/current-system/sw/usr/share/regolith-look/ayu/gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 
 ! -- for configuring UI from Xres values
 ! --------------------------------------------
 
-regolith.look.loader: /usr/share/regolith-look/default_loader.sh
+regolith.look.loader: /run/current-system/sw/usr/share/regolith-look/default_loader.sh

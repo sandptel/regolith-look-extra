@@ -14,7 +14,7 @@ regolith.look: dracula
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/regolith-look/dracula/dracula-regolith.png
+regolith.wallpaper.file: /run/current-system/sw/usr/share/regolith-look/dracula/dracula-regolith.png
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -35,7 +35,7 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/dracula/dracula-regolith.png
+regolith.lockscreen.wallpaper.file: /run/current-system/sw/usr/share/regolith-look/dracula/dracula-regolith.png
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -58,7 +58,7 @@ gtk.icon_theme_name: Dracula
 ! -- Compositor Config
 ! --------------------------------------------
 
-regolith.compositor.picom.config: /usr/share/regolith-look/dracula/picom.conf
+regolith.compositor.picom.config: /run/current-system/sw/usr/share/regolith-look/dracula/picom.conf
 ! -- Other compositor configs may be specified as desired:
 ! -- regolith.compositor.compton.config
 
@@ -103,13 +103,13 @@ gtk.monospace_font_name: gtk_monospace_font_name
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/dracula/i3xrocks"
-#include "/usr/share/regolith-look/dracula/wm"
-#include "/usr/share/regolith-look/dracula/gnome-terminal"
+#include "/run/current-system/sw/usr/share/regolith-look/dracula/i3xrocks"
+#include "/run/current-system/sw/usr/share/regolith-look/dracula/wm"
+#include "/run/current-system/sw/usr/share/regolith-look/dracula/gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 
 ! -- for configuring UI from Xres values
 ! --------------------------------------------
 
-regolith.look.loader: /usr/share/regolith-look/default_loader.sh
+regolith.look.loader: /run/current-system/sw/usr/share/regolith-look/default_loader.sh

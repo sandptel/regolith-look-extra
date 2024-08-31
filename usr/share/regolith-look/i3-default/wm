@@ -6,7 +6,7 @@
 #define i3wm_gaps_outer_size             0
 #define i3wm_bar_position                bottom
 
-ilia.stylesheet: /usr/share/regolith-look/i3-default/ilia.css
+ilia.stylesheet: /run/current-system/sw/usr/share/regolith-look/i3-default/ilia.css
 
 wm.bar.font: gtk_monospace_font_name
 wm.bar.position: i3wm_bar_position

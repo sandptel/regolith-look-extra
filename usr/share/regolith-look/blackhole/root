@@ -56,7 +56,7 @@ gtk.monospace_font_name: gtk_monospace_font_name
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.wallpaper.file: /run/current-system/sw/usr/share/backgrounds/regolith-blackhole-v1.0.0.png
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -77,7 +77,7 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/backgrounds/regolith-blackhole-v1.0.0.png
+regolith.lockscreen.wallpaper.file: /run/current-system/sw/usr/share/backgrounds/regolith-blackhole-v1.0.0.png
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -93,13 +93,13 @@ regolith.lockscreen.wallpaper.color.shading.type:
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/blackhole/i3xrocks"
-#include "/usr/share/regolith-look/blackhole/wm"
-#include "/usr/share/regolith-look/blackhole/gnome-terminal"
+#include "/run/current-system/sw/usr/share/regolith-look/blackhole/i3xrocks"
+#include "/run/current-system/sw/usr/share/regolith-look/blackhole/wm"
+#include "/run/current-system/sw/usr/share/regolith-look/blackhole/gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 
 ! -- for configuring UI from Xres values
 ! --------------------------------------------
 
-regolith.look.loader: /usr/share/regolith-look/default_loader.sh
+regolith.look.loader: /run/current-system/sw/usr/share/regolith-look/default_loader.sh

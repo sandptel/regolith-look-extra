@@ -98,7 +98,7 @@ regolith.lockscreen.wallpaper.color.shading.type:
 ! -- Compositor Config
 ! --------------------------------------------
 
-regolith.compositor.picom.config: /usr/share/regolith-look/nevil/picom.conf
+regolith.compositor.picom.config: /run/current-system/sw/usr/share/regolith-look/nevil/picom.conf
 ! -- Other compositor configs may be specified as desired:
 ! -- regolith.compositor.compton.config
 
@@ -106,13 +106,13 @@ regolith.compositor.picom.config: /usr/share/regolith-look/nevil/picom.conf
 ! -- Component resources
 ! --------------------------------------------
 
-#include "/usr/share/regolith-look/nevil/i3xrocks"
-#include "/usr/share/regolith-look/nevil/wm"
-#include "/usr/share/regolith-look/nevil/gnome-terminal"
+#include "/run/current-system/sw/usr/share/regolith-look/nevil/i3xrocks"
+#include "/run/current-system/sw/usr/share/regolith-look/nevil/wm"
+#include "/run/current-system/sw/usr/share/regolith-look/nevil/gnome-terminal"
 
 ! --------------------------------------------
 ! -- Loader Path - Path to script responsible 
 ! -- for configuring UI from Xres values
 ! --------------------------------------------
 
-regolith.look.loader: /usr/share/regolith-look/default_loader.sh
+regolith.look.loader: /run/current-system/sw/usr/share/regolith-look/default_loader.sh
